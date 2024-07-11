@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('fileInput').addEventListener('change', handleFileSelect);
     document.getElementById('btnSubmitColor').addEventListener('click', updateColor);
 
-    pixiApp = new PIXI.Application(800, 600, { backgroundColor: 0x1099bb });
+    pixiApp = new PIXI.Application(800, 600, { backgroundColor: 0xd4d4d4 });
     document.body.appendChild(pixiApp.view);
 });
 

@@ -1,0 +1,23 @@
+{
+    "name": "pixi-tint-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack serve --mode=development --no-hot"
+    },
+    "author": "Igor Vechkanov",
+    "license": "ISC",
+    "dependencies": {
+        "pixi.js": "^4.8.9"
+    },
+    "devDependencies": {
+        "@types/pixi.js": "^4.8.9",
+        "clean-webpack-plugin": "^4.0.0",
+        "esbuild-loader": "^4.2.0",
+        "html-webpack-plugin": "^5.6.0",
+        "webpack": "^5.92.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.4"
+    }
+}

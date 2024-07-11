@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "webpack serve --mode=development --no-hot"
+        "start": "webpack serve --mode=development --no-hot",
+        "build": "webpack --mode=production"
     },
     "author": "Igor Vechkanov",
     "license": "ISC",
